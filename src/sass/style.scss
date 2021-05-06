@@ -1,0 +1,66 @@
+$bgcolor:rgb(255, 255, 255);
+$navcolor:rgb(255, 255, 255);
+$textcolor :rgb(92, 92, 92);
+$copycolor:rgb(75, 74, 74);
+
+
+nav img {
+	height: 50px;
+	width: 90px;
+}
+body{
+	background-color: $bgcolor;
+	color: $textcolor;
+}
+
+.navcolor {
+	background-color:$navcolor;
+	
+}
+.copyright{
+	background-color: $copycolor;
+	color: $bgcolor;
+}
+footer{
+	background-color: $bgcolor;
+}
+.book1{
+	background-color: rgb(12, 133, 233);
+	color: white;
+}
+
+.carouselimg{
+	height: 50%;
+	width: 100px;
+}
+
+.book2{
+	background-color: rgb(94, 43, 13);
+	color:white;
+}
+.btncolor{
+	background-color: $copycolor;
+	color:white;
+}
+
+.btnbook2{
+	background-color: rgb(94, 43, 13);
+	color:white;
+}
+
+.btnbook1{
+	background-color: rgb(71, 161, 247);
+	color:white;
+}
+
+.btnbook1:hover{
+	background-color: white;
+	color: rgb(71, 161, 247);
+	border: 2px solid rgb(71, 161, 247);
+}
+
+.btnbook2:hover{
+	background-color: white;
+	color: rgb(94, 43, 13);
+	border: 2px solid rgb(94, 43, 13);
+}
