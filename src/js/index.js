@@ -12,16 +12,18 @@ button.onclick = function () {
 	button.innerHTML = ' العدد ' + count + ` <i class="fas fa-cart-plus"></i>`;
 };
 
-// $(document).ready(function () {
-// 	$('#search-filters-icon').click(function () {
-// 		$('.filter-column').slideToggle('slow');
-// 	});
-// 	$('input:checkbox').click(function () {
-// 		var $box = $(this);
-// 		if ($box.is(':checked')) {
-// 			var group = "input:checkbox[name='" + $box.attr('name') + "']";
-// 			$(group).prop('checked', false);
-// 			$box.prop('checked', true);
-// 		}
-// 	});
-// });
+jquery(function () {
+	$('#search-filters-icon').on('click', function () {
+		$('.filter-column').slideToggle('slow');
+	});
+
+	$('input:checkbox').on('click', function () {
+		var $box = $(this);
+
+		if ($box.is(':checked')) {
+			var group = "input:checkbox[name='' + $box.attr('name') + '']";
+			$(group).prop('checked', false);
+			$box.prop('checked', true);
+		}
+	});
+});
