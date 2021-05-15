@@ -4,43 +4,28 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 		<title>كتبك | الصفحة الرئيسية</title>
 	</head>
 	<body>
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="container-fluid">
-				<a class="navbar-brand p-2" href="index.html"
-					><img src="images/Logo.png" />
-				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item px-2">
-							<a class="nav-link active" aria-current="page" href="index.html"
-								>كتبك</a
-							>
-						</li>
-						<li class="nav-item px-2">
-							<a class="nav-link px-1" href="books.html">الكتب المتاحة</a>
-						</li>
-						<li class="nav-item px-2">
-							<a class="nav-link px-1" href="#contact">تواصل معنا</a>
-						</li>
-					</ul>
-				</div>
+			<a class="navbar-brand" href="index.html"><img src="images/Logo.png" /></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav">
+				<a class="nav-link active" href="index.html">كتبك</a>
+				<a class="nav-link" href="books.html">الكتب المتاحة</a>
+				<a class="nav-link" href="#contact">تواصل معنا</a>
+			
+			  </div>
 			</div>
-		</nav>
+		  </nav>
 		<!--Navbar Ends here-->
 		<div class="container">
 			<!--About Us-->
@@ -61,7 +46,7 @@
 				<h3 class="py-2">الأكثر مبيعا</h3>
 			</div>
 			<div class="row">
-				<div class="card cards col-4 mx-auto" style="width: 18rem">
+				<div class="card cards col-md-4 my-5 mx-auto" style="width: 18rem">
 					<img
 						src="images/Book 1.png"
 						class="card-img-top mt-3 cardimg"
@@ -82,7 +67,7 @@
 						>
 					</div>
 				</div>
-				<div class="card cards col-4 mx-auto" style="width: 16rem">
+				<div class="card cards col-md-4 my-5 mx-auto" style="width: 18rem">
 					<img
 						src="images/Book 2.png"
 						class="card-img-top mt-3 cardimg"
@@ -126,7 +111,7 @@
 						<div class="mapouter">
 							<div class="gmap_canvas">
 								<iframe
-									width="800"
+									width="700"
 									height="200"
 									id="gmap_canvas"
 									src="https://maps.google.com/maps?q=Port%20Said%20Cairo%20Governorate%20Egypt&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -141,7 +126,7 @@
 										position: relative;
 										text-align: right;
 										height: 200px;
-										width: 800px;
+										width: 700px;
 									}</style
 								><a href="https://www.embedgooglemap.net">google map html</a
 								><style>
@@ -149,7 +134,7 @@
 										overflow: hidden;
 										background: none !important;
 										height: 200px;
-										width: 800px;
+										width: 700px;
 									}
 								</style>
 							</div>
@@ -160,5 +145,6 @@
 			<div class="text-center p-3 copyright">© حقوق النشر 2021 كتبك</div>
 		</footer>
 		<!--Footer Ends Here-->
+		
 	</body>
 </html>
