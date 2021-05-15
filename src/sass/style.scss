@@ -4,11 +4,6 @@ $bgcolor: rgba(228, 227, 227, 0.815);
 $textcolor: rgb(92, 92, 92);
 $copycolor: rgb(102, 101, 101);
 
-@mixin normal-text {
-	background-color: $bgcolor;
-	color: $textcolor;
-}
-
 nav img {
 	height: 50px;
 	width: 90px;
